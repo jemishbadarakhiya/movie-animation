@@ -11,17 +11,6 @@ products.forEach(function(item){
 
 })
 
-let uniqueitems = []
-
-products.forEach(function(item){
-    let arritem = item.category;
-    let item = item.category;
-    // console.log('arritem', arritem)
-    if (!uniqueitems.includes(arritem)){
-        uniqueitems.push(arritem)
-    }
-})
-console.log('uniqueitem', uniqueitems)
 
 const products = [
     { id: 1, name: "Laptop", price: 800, category: "Electronics" },
