@@ -50,4 +50,6 @@ products.forEach(function(item){
     productnames.push(productname)
 })
 console.log('productnames', productnames)
+// change
 // 8
+
