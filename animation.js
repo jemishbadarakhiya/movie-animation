@@ -6,9 +6,22 @@ products.forEach(function(item){
     if(itemcost === 100){
         console.log('Yes, item is 100: is item ', item)
         console.log('sample test')
-        console.log('merge testing')
+        console.log('merge a testing')
+    }
+
+})
+
+let uniqueitems = []
+
+products.forEach(function(item){
+    let arritem = item.category;
+    let item = item.category;
+    // console.log('arritem', arritem)
+    if (!uniqueitems.includes(arritem)){
+        uniqueitems.push(arritem)
     }
 })
+console.log('uniqueitem', uniqueitems)
 
 const products = [
     { id: 1, name: "Laptop", price: 800, category: "Electronics" },
