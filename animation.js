@@ -8,11 +8,14 @@ products.forEach(function(item){
         console.log('sample test')
         console.log('merge a testing')
     }
-    
+
 })
+
 let uniqueitems = []
+
 products.forEach(function(item){
     let arritem = item.category;
+    let item = item.category;
     // console.log('arritem', arritem)
     if (!uniqueitems.includes(arritem)){
         uniqueitems.push(arritem)
