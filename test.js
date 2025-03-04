@@ -51,5 +51,6 @@ products.forEach(function(item){
 })
 console.log('productnames', productnames)
 // change
+// Stage changes
 // 8
 
